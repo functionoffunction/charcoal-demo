@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap');
 
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-
-}
-
 .cost{
     font-family: 'Work Sans', sans-serif !important; 
 }
@@ -68,4 +61,15 @@ button.btn.btn-primary.charcoal {
 }
 label.form-check-label {
     margin: 0;
+}
+h5{
+    margin: 8px 0;
+    font-weight: 900;
+}
+small {
+    color: #777;
+    font-size: .75em;
+}
+a.navbar-brand img {
+    height: 32px;
 }
