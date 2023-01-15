@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.cost{
+    font-family: 'Work Sans', sans-serif !important; 
+}
+
+.container {
+    margin: 20px auto;
+    background-color: white;
+    padding: 0;
+}
+
+label {
+    margin: 8px 0;
+    font-weight: 900;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.btn.btn-primary {
+    width: 100%;
+    height: 55px;
+    border-radius: 0;
+    padding: 13px 0;
+    background-color: black;
+    border: none;
+    font-weight: 600;
+}
+
+.btn.btn-primary:hover .fas {
+    transform: translateX(10px);
+    transition: transform 0.5s ease
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333;
+    background-color: #eee;
+}
+.accordion-button{
+    font-weight: 600;
+}
+img.icon {margin: 0 8px;height: 20px;width: auto;filter: grayscale(1);}
+
+span.caution {color: #f04225;display: block;}
+
+button.btn.btn-primary.charcoal {
+    text-align: left;
+    padding: 12px;
+    display: inline;
+    width: auto;
+    background: #222;
+}
+label.form-check-label {
+    margin: 0;
+}
