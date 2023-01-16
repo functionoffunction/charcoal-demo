@@ -73,3 +73,23 @@ small {
 a.navbar-brand img {
     height: 32px;
 }
+
+img.checkout-img {
+    max-height: 80px;
+    width: auto;
+}
+
+h5.order {
+    margin-bottom: 24px;
+}
+
+.item {
+    margin-bottom: 18px;
+}
+
+.col-6.checkout-item-title {
+    color: #555;
+}
+.grand-total .cost {
+    font-size: 20px;
+}
