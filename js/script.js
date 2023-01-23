@@ -13,6 +13,6 @@ function handleSubmit(e) {
     }
 
     if (charcoalChecked()) {
-        window.location.replace("/charcoal.html");
+        window.location.replace("./charcoal.html");
     }
 }
