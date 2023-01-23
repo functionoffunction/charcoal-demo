@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charcoal</title>
+</head>
+<body>
+    
+</body>
+<script src="https://js.paystack.co/v2/inline.js"></script>
+<script>
+    const paystack = new PaystackPop();
+    paystack.newTransaction({
+        key: 'pk_test_631386e5c65ecec704d80e9b5fba560dff812338',
+        email: 'john.doe@example.com',
+        amount: 750000,
+        onSuccess: (transaction) => { 
+            window.location.replace("/success.html");
+        },
+    });
+</script>
+</html>

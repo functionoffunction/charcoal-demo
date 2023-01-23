@@ -93,3 +93,38 @@ h5.order {
 .grand-total .cost {
     font-size: 20px;
 }
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #f8f9fa;
+    padding: 8px;
+    text-align: center;
+}
+.topic{
+    font-weight: 900;
+}
+
+.alert.alert-danger {
+    background: #fff;
+    border-color: #fff;
+    border-left-color: #f00;
+    border-radius: 0;
+    border-width: 3px;
+    background: #f8f9fa;
+    font-weight: 500;
+    display: none;
+}
+
+.alert.show{
+    display: block;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../images/checkmark.png");
+    transform: initial !important;
+}
+
+.accordion-button::after {
+    background-image: none;
+}
